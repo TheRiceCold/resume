@@ -2,9 +2,9 @@
 #show: layout
 
 #cvHeader(hasPhoto: false, align: left)
-  #autoImport("education")
   #autoImport("experience")
   #autoImport("projects")
+  #autoImport("education")
   #autoImport("certificates")
   #autoImport("skills")
 #cvFooter()

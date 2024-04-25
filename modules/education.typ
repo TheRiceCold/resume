@@ -4,18 +4,18 @@
 
 #cvEntry(
 	title: [Software Engineering (Bootcamp)],
+  logo: "../src/logos/avion.png",
 	society: [Avion School],
+  location: [Philippines],
 	date: [2022 - 2023],
-	location: [Philippines],
-	logo: "../src/logos/cntm.png",
 	description: list(),
 )
 
 #cvEntry(
 	title: [Bachelor's degree in Entertainment and Multimedia Computing],
 	society: [University of Caloocan City],
+  location: [Caloocan City, Philippines],
+  logo: "../src/logos/ucc.png",
 	date: [2016 - 2020],
-	location: [Caloocan-Philippines],
-	logo: "../src/logos/utcn.svg",
 	description: list(),
 )

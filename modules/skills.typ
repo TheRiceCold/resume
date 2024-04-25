@@ -9,7 +9,7 @@
 
 #cvSkill(
 	type: [Prog. languages],
-	info: [JavaScript/TypeScript, Ruby, C\#, Java, Nix, Python, Bash],
+	info: [JavaScript/TypeScript, Ruby, C\#, Java, Nix, Python, Sass, Bash],
 )
 
 #cvSkill(

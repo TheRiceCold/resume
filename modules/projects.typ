@@ -8,10 +8,11 @@
 	location: [],
   date: [2024 - Present],
 	description: list(
-		[Server management provisioned through Terraform, running NixOS, connected over
-		Tailscale],
-		[*alpha*: Oracle ARM VPS running multiple services],
-		[*home server*: Older machine running various services at home],
+    [*Desktop Environment for developers designed to improve workflow.*],
+		[*AI Tools*: Implemented Google Gemini and OpenAI ChatGPT prompt],
+		[*Quicksettings*: Includes options for wifi, bluetooth, audio, display settings],
+		[*Date Menu*: Includes calendar, weather/forecast, agenda(todo list), timer],
+    [*Status Bar*: Audio player/visualizer, window commands, screen tools],
 	)
 )
 
@@ -33,6 +34,6 @@
 	location: [],
   date: [2023 - Present],
 	description: list(
-		[Repo hosting an ever-growing collection of games and related software packaged for Nix],
+    [Social media frontend web application],
 	)
 )

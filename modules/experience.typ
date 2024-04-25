@@ -6,7 +6,7 @@
 #cvEntry(
   title: [Contracting],
   society: [Proudcloud],
-  logo: "../src/logos/nixos.svg",
+  logo: "../src/logos/proudcloud.png",
   date: [2022, 2023],
   location: [Remote],
   description: list(
