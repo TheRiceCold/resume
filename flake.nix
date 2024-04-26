@@ -12,11 +12,7 @@
     inputs.flake-parts.lib.mkFlake {inherit inputs;} {
       systems = ["aarch64-linux" "aarch64-darwin" "x86_64-linux" "x86_64-darwin"];
 
-      perSystem = {
-        pkgs,
-        config,
-        ...
-      }: let
+      perSystem = { pkgs, config, ... }: let
         mkDate = longDate:
           with builtins; (concatStringsSep "-" [
             (substring 0 4 longDate)
@@ -27,17 +23,12 @@
         src = self;
       in {
         devShells.default = pkgs.mkShell {
-          packages = with pkgs; [
-            typst
-            typst-fmt
-            typst-lsp
-          ];
-          name = "Resume";
+          name = "CV";
+          packages = with pkgs; [ typst typst-fmt typst-lsp ];
         };
 
         packages = {
-          english = pkgs.callPackage ./package.nix { inherit version src; };
-          default = config.packages.english;
+          default = pkgs.callPackage ./package.nix { inherit version src; };
         };
       };
     };

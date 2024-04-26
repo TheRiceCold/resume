@@ -7,7 +7,7 @@
   logo: "../src/logos/avion.png",
 	society: [Avion School],
   location: [Philippines],
-	date: [2022 - 2023],
+	date: [2021 - 2022],
 	description: list(),
 )
 

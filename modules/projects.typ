@@ -23,7 +23,6 @@
   date: [2023 - Present],
 	description: list(
 		[Managing my desktop machines running NixOS using Git and Flakes],
-		[Every machine is accessible everywhere through Tailscale],
 		[Useful configurations accumulated over the years],
 	)
 )
@@ -35,5 +34,8 @@
   date: [2023 - Present],
 	description: list(
     [Social media frontend web application],
+    [Automate CI/CD workflow using GitHub Actions.],
+    [Easy development environment setup using docker/docker compose or Nix.],
+    [Developed using NextJS and TypeScript],
 	)
 )
